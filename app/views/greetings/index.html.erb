@@ -1,5 +1,13 @@
-<main>
+<main class="greetings-container">
   <h1>Greetings in Different Languages</h1>
-  <p><strong>Language:</strong> <%= @random_greeting.language %></p>
-  <p><strong>Phrase:</strong> <%= @random_greeting.phrase %></p>
+  <section>
+    <div>
+      <strong>Language</strong>
+      <span class="language"><%= @random_greeting.language %></span>
+    </div>
+    <div>
+      <strong>Phrase</strong>
+      <span class="phrase">"<%= @random_greeting.phrase %>"</span>
+    </div>
+  </section>
 </main>
