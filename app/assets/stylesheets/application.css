@@ -22,57 +22,55 @@ body {
   min-width: 40rem;
   max-width: 50rem;
   margin: 0 auto;
-  background: #f4f1e5;
-  color: #12181b;
+  background: #fefefd;
 }
 
-.greetings-container {
-  padding: 2rem;
-  border-radius: 0.5rem;
-  background: #fcfbf4;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.greetings-container section {
-  display: flex;
-  gap: 2rem;
-}
-
-.greetings-container h1 {
-  margin-bottom: 2.75rem;
-  position: relative;
-}
-
-.greetings-container h1::before {
-  content: '';
-  position: absolute;
-  top: 120%;
-  left: -3%;
-  width: 20%;
-  height: 4px;
-  border-radius: 3px;
-  background-color: #3498db;
-}
-
-.greetings-container div {
-  margin-bottom: 1rem;
+.wrapper {
   display: flex;
   flex-direction: column;
+  background: white;
+  width: 30rem;
+  overflow: hidden;
+}
+
+.language {
+  padding: 1rem;
+  display: flex;
   gap: 0.5rem;
 }
 
-.greetings-container strong {
-  font-size: 1rem;
-  color: #2c325d55;
+.language__label {
+  color: rgb(123, 122, 122);
 }
 
-.greetings-container .language {
-  font-size: 1.5rem;
-  margin-top: 1rem;
+.language__name {
+  color: rgb(51, 146, 140);
+  font-weight: 600;
 }
 
-.greetings-container .phrase {
-  font-size: 2.5rem;
+.greeting {
+  color: rgb(123, 122, 122);
+  padding: 3rem 1rem;
+  font-size: 3rem;
+  text-align: center;
+  background-color: rgb(248, 146, 146);
+}
+
+.btn {
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border: 4px solid rgb(124, 124, 124);
+  background: white;
+  cursor: pointer;
+  padding: 0.75rem 2rem;
+  transition: all 300ms ease;
+  width: max-content;
+  font-size: 1.25rem;
   font-weight: bold;
-  color: #3498db;
+}
+
+.btn:hover,
+.bth:active {
+  transform: scale(1.05);
 }
