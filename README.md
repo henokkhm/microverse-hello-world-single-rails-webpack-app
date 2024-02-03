@@ -5,7 +5,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [Population 2073](#population-2073)
+- [Hello Rails - Webpack - React](#hello-rails---webpack---react)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -26,7 +26,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# Population 2073<a name="about-project"></a>
+# Hello Rails - Webpack - React<a name="about-project"></a>
 
 This project bootstraps a [Ruby on Rails](https://rubyonrails.org/) application and uses [Webpack](https://webpack.js.org/) to add [React.js](https://react.dev/) to it. On the frontend, the app uses [React Router](https://reactrouter.com/en/main) for navigation and [Redux Toolkit](https://redux-toolkit.js.org/) for state management. The app fetches a random greeting from the Rails backend, and displays it on the homepage. The user can click on the "Randomize" button to get a greeting in a different language.
 
