@@ -5,11 +5,10 @@ import Greeting from './Greeting';
 
 function App() {
   return (
-    <div>       
+    <div>
       <Routes>
-        <Route path="/greeting" element={<Greeting />} />
+        <Route path="/" element={<Greeting />} />{' '}
       </Routes>
-      <Link to="/greeting">Greeting</Link>
     </div>
   );
 }
