@@ -11,11 +11,8 @@ export const fetchGreeting = createAsyncThunk(
   'greeting/fetchGreeting',
   async () => {
     try {
-      console.log('sending request to fetch greetings');
       const response = await fetch('/greetings');
       const data = await response.json();
-      console.log('fetched greeting');
-      console.log({ data });
       return data.greeting;
     } catch (error) {
       throw new Error('Failed to fetch greeting');
